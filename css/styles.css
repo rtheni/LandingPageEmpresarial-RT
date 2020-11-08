@@ -156,9 +156,17 @@
     font-style: normal;
 }
 .portfolioSection, .teamSection{
+    padding-top: 100px;
+    padding-bottom: 15px;
     background-color: #f8f9fa;
 }
+.portfolioSection h2{
 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+}
 .teamProfilePic{
     width: 224px;
     height: 224px;
@@ -189,4 +197,11 @@
 
 .portfolioCardPic{
     width: 100%;
+}
+.card{
+    border: 0px;
+    margin-bottom: 25px;
+}
+.card-body h4{
+    font-weight: 700;
 }
