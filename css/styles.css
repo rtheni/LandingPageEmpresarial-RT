@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .teamTwitterLink, .teamFBLink, .teamLinLink{
@@ -18,10 +19,54 @@
     width: 75px;
 }
 .headerWelcome{
-    position: relative;
     text-align: center;
-    padding-top: 145px;
+    padding-top: 155px;
+    padding-bottom: 180px;
     color: white;
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+@media (min-width: 768px){
+    .headerWelcome{
+    padding-top: 272px;
+    }
+}
+.headerWelcomeH1{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 24px;
+    font-family: "Droid Serif", sans-serif;
+    margin-bottom: 32px;
+}
+@media (min-width: 768px){
+    .headerWelcomeH1 {
+        font-size: 36px;
+        font-style: italic;
+        line-height: 36px;
+    }
+}
+.headerWelcomeH2{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 67px;
+}
+@media (min-width: 768px){
+    .headerWelcomeH2 {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+    }
+}
+.headerWelcomeBtn{
+    font-weight: 700;
+    padding: 20px 45px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    background-color: #fed136;
 }
 .navBtn{
     padding: 0.75rem;
@@ -36,31 +81,35 @@
     height: 12px;
 }
 .navbar{
-    
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
     background-color: #212529;
 }
 @media (min-width: 992px){
     .navbar {
+        padding-top: 15px;
         background-color: transparent;
     }
 }
-@media (min-width: 768px){
-    .headerWelcome{
-    padding-top: 225px;
+@media (min-width: 576px){
+    .navbar {
+        padding: 15px 0px;
     }
 }
 .headerCoverContainer{
     position: absolute;
-}
-.headerCoverImg{
-    width: 100%;
-    transform: scale(1.05);
 }
 .headerContainer{
     background-color: #212529;
 }
 .headerLogo{
     width: 190px;
+}
+@media (max-width: 992px){
+    .headerLogo{
+        width: 140px;
+    }
 }
 .headerNavItem{
     font-family: "Montserrat", sans-serif;
