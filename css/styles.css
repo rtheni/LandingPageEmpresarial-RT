@@ -69,9 +69,9 @@
     background-color: #fed136;
 }
 .navBtn{
-    padding: 0.75rem;
+    padding: 12px;
     font-family: "Montserrat", sans-serif;
-    font-size: 0.75rem;
+    font-size: 12px;
     color: #fff;
     text-transform: uppercase;
     background-color: #fed136;
@@ -118,4 +118,43 @@
     position: relative;
     margin: 0px 0px;
     padding: 10px 20px 0px 0px;
+}
+.servicesContainer{
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+.servicesContainer h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.servicesContainer p{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Droid Serif", sans-serif;
+    color: #6c757d;
+    margin-bottom: 64px;
+}
+.servicesLogoContainer{
+    position: relative;
+    display: inline-block;
+}
+.servicesLogo2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #fff;
+}
+.serviceContainer h4{
+    margin: 16px 0px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.serviceContainer p{
+    margin: 16px 0px;
+    line-height: 1.75;
+    font-style: normal;
+}
+.portfolioSection{
+    background-color: #f8f9fa;
 }
