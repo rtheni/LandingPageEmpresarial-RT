@@ -5,19 +5,50 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.teamTwitterLink, .teamFBLink, .teamLinLink{
-    height: 25px;
-    width: 25px;
+
+/*nav*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    background-color: #212529;
 }
-.aboutLogoContainer{
-    height: 125px;
-    width: 125px;
-    color: #fed136;
+@media (min-width: 992px){
+    .navbar {
+        padding-top: 15px;
+        background-color: transparent;
+    }
 }
-.aboutLogoECom, .aboutLogoResDes, .aboutLogoWebSec{
-    height: 75px;
-    width: 75px;
+@media (min-width: 576px){
+    .navbar {
+        padding: 15px 0px;
+    }
 }
+.navBtn{
+    padding: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #fed136;
+    border: 0;
+}
+.navBtn svg{
+    height: 12px;
+}
+.headerNavItem{
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    margin: 0px 0px;
+    padding: 10px 20px 0px 0px;
+}
+
+
+/*welcome section*/
+
 .headerWelcome{
     text-align: center;
     padding-top: 155px;
@@ -68,35 +99,6 @@
     color: #fff;
     background-color: #fed136;
 }
-.navBtn{
-    padding: 12px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #fed136;
-    border: 0;
-}
-.navBtn svg{
-    height: 12px;
-}
-.navbar{
-    position: fixed;
-    width: 100%;
-    padding-top: 25px;
-    background-color: #212529;
-}
-@media (min-width: 992px){
-    .navbar {
-        padding-top: 15px;
-        background-color: transparent;
-    }
-}
-@media (min-width: 576px){
-    .navbar {
-        padding: 15px 0px;
-    }
-}
 .headerCoverContainer{
     position: absolute;
 }
@@ -111,14 +113,10 @@
         width: 140px;
     }
 }
-.headerNavItem{
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-    display: inline-block;
-    position: relative;
-    margin: 0px 0px;
-    padding: 10px 20px 0px 0px;
-}
+
+
+/*sections*/
+
 .sectionContainer{
     margin-top: 96px;
     margin-bottom: 96px;
@@ -135,6 +133,10 @@
     color: #6c757d;
     margin-bottom: 64px;
 }
+
+
+/*services section*/
+
 .servicesLogoContainer{
     position: relative;
     display: inline-block;
@@ -155,25 +157,55 @@
     line-height: 1.75;
     font-style: normal;
 }
-.portfolioSection, .teamSection{
-    padding-top: 100px;
-    padding-bottom: 15px;
-    background-color: #f8f9fa;
-}
-.portfolioSection h2{
 
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    line-height: 1.2;
-    font-size: 40px;
+
+/*team*/
+
+.teamTwitterLink, .teamFBLink, .teamLinLink{
+    background: #343a40;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.teamTwitterLogo, .teamFBLogo, .teamLinLogo{
+    height: 15px;
+    width: 15px;
+    color: #fff;
 }
 .teamProfilePic{
     width: 224px;
     height: 224px;
+    margin-top: 50px;
     border-radius: 50%;
     border: 7px rgba(0, 0, 0, 0.1) solid;
 }
+.teamSection h4{
+    margin-top: 25px;
+    font-weight: 700;
+}
+.teamSection p{
+    margin-bottom: 15px;
+}
 
+
+/*about section*/
+
+.aboutLogoContainer{
+    height: 125px;
+    width: 125px;
+    color: #fed136;
+}
+.aboutLogoECom, .aboutLogoResDes, .aboutLogoWebSec{
+    height: 75px;
+    width: 75px;
+}
 .aboutPic{
     width: 136px;
     height: 136px;
@@ -195,13 +227,43 @@
     font-style: normal;
 }
 
+
+/*portfolio section*/
+
+.portfolioSection, .teamSection{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    background-color: #f8f9fa;
+}
+.portfolioSection h2{
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 40px;
+}
 .portfolioCardPic{
     width: 100%;
+}
+.portfolioCardPicHover{
+    width: 100%;
+    height: 100%;
+    
+}
+.portfolioCardPic:hover{
+    
+    opacity: 0.1;
+    transition: opacity ease-in-out 0.25s;
 }
 .card{
     border: 0px;
     margin-bottom: 25px;
+    background: rgba(254, 209, 54, 0.9);
+}
+.card-body{
+    background: #FFF;
 }
 .card-body h4{
     font-weight: 700;
+    
 }
