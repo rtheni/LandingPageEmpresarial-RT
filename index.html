@@ -14,26 +14,26 @@
     <header id="header">
         <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container">
-                <a class="navbar-brand" href="#header"><img src="img/navbar-logo.svg" alt="landing page logo" class="headerLogo"></a>
+                <a class="navbar-brand" href="#header"><img src="img/navbar-logo.svg" alt="landing page logo" class="navLogo"></a>
                 <button class="navbar-toggler collapsed navBtn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     MENU <svg class="svg-inline--fa fa-bars fa-w-14 ml-1" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
                     
                 </button>
                 <div class="collapse navbar-collapse row justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item headerNavItem">
+                        <li class="nav-item navItem">
                             <a class="nav-link" href="#services">SERVICES</a>
                         </li>
-                        <li class="nav-item headerNavItem">
+                        <li class="nav-item navItem">
                             <a class="nav-link" href="#portfolio">PORTFOLIO</a>
                         </li>
-                        <li class="nav-item headerNavItem">
+                        <li class="nav-item navItem">
                             <a class="nav-link" href="#about">ABOUT</a>
                         </li>
-                        <li class="nav-item headerNavItem">
+                        <li class="nav-item navItem">
                             <a class="nav-link" href="#team">TEAM</a>
                         </li>
-                        <li class="nav-item headerNavItem">
+                        <li class="nav-item navItem">
                             <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
@@ -125,7 +125,7 @@
             <p>Lorem ipsum dolor sit amet consectetur.</p>
             <div class="container sectionContainer">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <div class="portfolioCardPicHover"></div>
                             <a href="" data-toggle="modal" data-target=".portfoliomodal1"><img src="img/portfolio/01-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <a href="" data-toggle="modal" data-target=".portfoliomodal2"><img src="img/portfolio/02-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
                             <div class="card-body">
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <a href="" data-toggle="modal" data-target=".portfoliomodal3"><img src="img/portfolio/03-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
                             <div class="card-body">
@@ -217,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <a href="" data-toggle="modal" data-target=".portfoliomodal4"><img src="img/portfolio/04-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
                             <div class="card-body">
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <a href="" data-toggle="modal" data-target=".portfoliomodal5"><img src="img/portfolio/05-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
                             <div class="card-body">
@@ -277,7 +277,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6 col-lg-4">
                         <div class="card">
                             <a href="" data-toggle="modal" data-target=".portfoliomodal6"><img src="img/portfolio/06-thumbnail.jpg" alt="" class="portfolioCardPic"></a>
                             <div class="card-body">
@@ -310,58 +310,62 @@
                 </div>
             </div>
         </section>
-
         <section id="about">
             <div class="container sectionContainer">
+                
                 <h2>ABOUT</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
-                <div>
-                    <img src="img/about/1.jpg" alt="" class="aboutPic">
-                    <h4>2009-2011</h4>
-                    <h4>Our Humble Beginnings</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
-                        qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
-                        dolore laudantium consectetur!
-                    </p>
+                <div class="aboutContainer">
+                    <div class="aboutTimeline"></div>
+                    <div >
+                        <img src="img/about/1.jpg" alt="" class="aboutPic">
+                        <h4>2009-2011</h4>
+                        <h4>Our Humble Beginnings</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+                            qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
+                            dolore laudantium consectetur!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/about/2.jpg" alt="" class="aboutPic">
+                        <h4>March 2011</h4>
+                        <h4>An Agency is Born</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+                            qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
+                            dolore laudantium consectetur!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/about/3.jpg" alt="" class="aboutPic">
+                        <h4>December 2012</h4>
+                        <h4>Trasition to Full Service</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+                            qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
+                            dolore laudantium consectetur!
+                        </p>
+                    </div>
+                    <div>
+                        <img src="img/about/4.jpg" alt="" class="aboutPic">
+                        <h4>July 2014</h4>
+                        <h4>Phase Two Expansion</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
+                            qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
+                            dolore laudantium consectetur!
+                        </p>
+                    </div>
+                    <div class="aboutPic aboutPartStory">
+                        <p class="align-middle">Be part of our Story!</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="img/about/2.jpg" alt="" class="aboutPic">
-                    <h4>March 2011</h4>
-                    <h4>An Agency is Born</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
-                        qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
-                        dolore laudantium consectetur!
-                    </p>
-                </div>
-                <div>
-                    <img src="img/about/3.jpg" alt="" class="aboutPic">
-                    <h4>December 2012</h4>
-                    <h4>Trasition to Full Service</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
-                        qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
-                        dolore laudantium consectetur!
-                    </p>
-                </div>
-                <div>
-                    <img src="img/about/4.jpg" alt="" class="aboutPic">
-                    <h4>July 2014</h4>
-                    <h4>Phase Two Expansion</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Sunt ut voluptatum eius sapiente, totam reiciendis temporibus 
-                        qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo 
-                        dolore laudantium consectetur!
-                    </p>
-                </div>
-                <div class="aboutPic aboutPartStory">
-                    <p class="align-middle">Be part of our Story!</p>
-                </div>
+                
             </div>
         </section>
         <section class="teamSection" id="team">
@@ -369,7 +373,7 @@
                 <h2>OUR AMAZING TEAM</h2>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="img/team/1.jpg" alt="" class="teamProfilePic">
                         <h4>Kay Garland</h4>
                         <p>Lead Designer</p>
@@ -402,7 +406,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="img/team/2.jpg" alt="" class="teamProfilePic">
                         <h4>Larry Parker</h4>
                         <p>Lead Marketer</p>
@@ -435,7 +439,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <img src="img/team/3.jpg" alt="" class="teamProfilePic">
                         <h4>Diana Petersen</h4>
                         <p>Lead Developer</p>
